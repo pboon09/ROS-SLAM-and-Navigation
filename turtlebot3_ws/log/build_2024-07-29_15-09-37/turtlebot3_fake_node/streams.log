@@ -1,0 +1,76 @@
+[0.026s] Invoking command in '/home/pboon09/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/try_topic_py:/home/pboon09/ros2_ws/install/service_py:/home/pboon09/ros2_ws/install/custom_msg_py:/home/pboon09/ros2_ws/install/activity_custom_interface:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/activity_topic_node:/home/pboon09/ros2_ws/install/activity_service:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake /home/pboon09/turtlebot3_ws/src/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node
+[0.153s] -- The C compiler identification is GNU 11.4.0
+[0.246s] -- The CXX compiler identification is GNU 11.4.0
+[0.260s] -- Detecting C compiler ABI info
+[0.368s] -- Detecting C compiler ABI info - done
+[0.375s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.375s] -- Detecting C compile features
+[0.375s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.492s] -- Detecting CXX compiler ABI info - done
+[0.499s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.499s] -- Detecting CXX compile features
+[0.499s] -- Detecting CXX compile features - done
+[0.515s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.745s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.960s] -- Found geometry_msgs: 4.2.4 (/home/pboon09/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.077s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.098s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.123s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.367s] -- Found nav_msgs: 4.2.4 (/home/pboon09/microros_ws/install/nav_msgs/share/nav_msgs/cmake)
+[1.458s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.599s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.612s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.694s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.726s] -- Looking for pthread.h
+[1.836s] -- Looking for pthread.h - found
+[1.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.948s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.949s] -- Found Threads: TRUE  
+[2.092s] -- Found sensor_msgs: 4.2.4 (/home/pboon09/microros_ws/install/sensor_msgs/share/sensor_msgs/cmake)
+[2.198s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[2.230s] -- Found tf2_msgs: 0.25.7 (/opt/ros/humble/share/tf2_msgs/cmake)
+[2.387s] -- Found turtlebot3_msgs: 2.2.3 (/opt/ros/humble/share/turtlebot3_msgs/cmake)
+[2.569s] -- Configuring done
+[2.589s] -- Generating done
+[2.590s] -- Build files have been written to: /home/pboon09/turtlebot3_ws/build/turtlebot3_fake_node
+[2.601s] Invoked command in '/home/pboon09/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/try_topic_py:/home/pboon09/ros2_ws/install/service_py:/home/pboon09/ros2_ws/install/custom_msg_py:/home/pboon09/ros2_ws/install/activity_custom_interface:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/activity_topic_node:/home/pboon09/ros2_ws/install/activity_service:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake /home/pboon09/turtlebot3_ws/src/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node
+[2.603s] Invoking command in '/home/pboon09/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/try_topic_py:/home/pboon09/ros2_ws/install/service_py:/home/pboon09/ros2_ws/install/custom_msg_py:/home/pboon09/ros2_ws/install/activity_custom_interface:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/activity_topic_node:/home/pboon09/ros2_ws/install/activity_service:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/pboon09/turtlebot3_ws/build/turtlebot3_fake_node -- -j12 -l12
+[2.702s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[13.248s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[14.385s] [100%] Built target turtlebot3_fake_node
+[14.408s] Invoked command in '/home/pboon09/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/try_topic_py:/home/pboon09/ros2_ws/install/service_py:/home/pboon09/ros2_ws/install/custom_msg_py:/home/pboon09/ros2_ws/install/activity_custom_interface:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/activity_topic_node:/home/pboon09/ros2_ws/install/activity_service:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/pboon09/turtlebot3_ws/build/turtlebot3_fake_node -- -j12 -l12
+[14.518s] Invoking command in '/home/pboon09/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/try_topic_py:/home/pboon09/ros2_ws/install/service_py:/home/pboon09/ros2_ws/install/custom_msg_py:/home/pboon09/ros2_ws/install/activity_custom_interface:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/activity_topic_node:/home/pboon09/ros2_ws/install/activity_service:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/pboon09/turtlebot3_ws/build/turtlebot3_fake_node
+[14.534s] -- Install configuration: ""
+[14.534s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[14.540s] -- Set runtime path of "/home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[14.540s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[14.540s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[14.540s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[14.540s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[14.540s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[14.540s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[14.541s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[14.541s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/include/
+[14.541s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[14.541s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[14.541s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[14.541s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[14.541s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[14.542s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[14.542s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[14.542s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[14.542s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[14.542s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[14.542s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[14.542s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[14.543s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[14.543s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[14.543s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.543s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.543s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[14.543s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[14.543s] -- Installing: /home/pboon09/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[14.546s] Invoked command in '/home/pboon09/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/try_topic_py:/home/pboon09/ros2_ws/install/service_py:/home/pboon09/ros2_ws/install/custom_msg_py:/home/pboon09/ros2_ws/install/activity_custom_interface:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/activity_topic_node:/home/pboon09/ros2_ws/install/activity_service:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/pboon09/turtlebot3_ws/build/turtlebot3_fake_node
